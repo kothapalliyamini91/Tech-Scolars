@@ -1,0 +1,71 @@
+/* Selected Events Container */
+.selected-events {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Header Styling */
+.selected-events h2 {
+  margin: 0 0 15px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* No Events Message */
+.selected-events p {
+  margin: 10px 0;
+  color: #666;
+  font-style: italic;
+}
+
+/* Selected Event Card */
+.selected-event {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Event Info */
+.event-info {
+  flex: 1;
+}
+
+.event-name {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.event-timings {
+  margin: 5px 0;
+  color: #666;
+  font-size: 0.9em;
+}
+
+/* Deselect Button */
+.deselect-button {
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.deselect-button:hover {
+  background-color: #c82333;
+}

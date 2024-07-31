@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  padding: 20px;
+}
+
+.event-list {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.selected-events {
+  flex: 1;
+}
+
+.event-card, .selected-event {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.event-card button, .selected-event button {
+  margin-top: 10px;
+}
